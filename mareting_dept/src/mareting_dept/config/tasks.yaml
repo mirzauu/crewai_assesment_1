@@ -1,0 +1,112 @@
+analyze_strategy_task:
+  description: >
+      Conduct a thorough research about the customer and competitors in the context
+      of {Company_website}. The company name is {company_name}. The company is about {about}.
+
+      Make sure you find any interesting and relevant information given the
+      current year is 2024.
+      We are working with them on the following project: {project_description}.
+  expected_output: >
+    A complete report on the customer and their customers and competitors,
+    including their demographics, preferences, market positioning and audience engagement.
+
+project_understanding_task:
+  description: >
+    Understand the project details and the target audience for
+    {project_description}.
+    Review any provided materials and gather additional information as needed.
+  expected_output: >
+    A detailed summary of the project and a profile of the target audience.
+
+marketing_strategy_task:
+  description: >
+    Formulate a comprehensive marketing strategy for the project
+    {project_description} of the customer {Company_website}.
+    Use the insights from the research task and the project understanding
+    task to create a high-quality strategy.
+  expected_output: >
+    A detailed marketing strategy document that outlines the goals, target
+    audience, key messages, and proposed tactics. Ensure to include a name, tactics, channels, and KPIs.
+
+campaign_idea_task:
+  description: >
+    Develop creative marketing campaign ideas for {project_description}.
+    Ensure the ideas are innovative, engaging, and aligned with the overall marketing strategy.
+  expected_output: >
+    Design and execute a comprehensive week-long marketing campaign that promotes {latest_product} and elevates the brand presence of {company_name}.
+
+content_strategy:
+  description: >
+    Based on the market research findings, develop a comprehensive content calendar for a week to promote {project_description}.
+    The calendar should include:
+    - Instagram post content with engaging captions and relevant hashtags for Monday to Friday.
+    - Image prompts for each Instagram post to guide visual creation.
+    - Cold email content to promote {project_description}.
+    - Potential client email list to ensure effective outreach.
+  expected_output: >
+    A detailed week-long content calendar, formatted as markdown, including:
+    - Daily Instagram post content and corresponding image prompts (Monday to Friday).
+    - Cold email content tailored to promote {project_description}.
+    - A potential client email list for outreach.
+
+email_scraping_task:
+  description: >
+    Identify potential client emails through web scraping or other methods for outreach related to {project_description}.
+    Ensure the emails are relevant and accurate for the campaign.
+  expected_output: >
+    A list of 10 potential client emails, carefully curated to align with the outreach goals for {project_description}.
+
+email_content_task:
+  description: >
+    Generate catchy and persuasive cold email content to promote {project_description}.
+    Focus on creating clear, professional, and engaging messaging.
+  expected_output: >
+    Three cold email templates designed for outreach, specifically tailored to promote {project_description}.
+
+email_response_task:
+  description: >
+    Generate a professional email response to the client's message. 
+    You were sent this email: "{sent_email}". 
+    The client replied with: "{client_reply}".
+    Create a response that addresses their query professionally, maintaining a polite tone and aligning with the organization's communication standards.
+  expected_output: >
+    A well-crafted email response ready to be sent to the client, tailored to their specific query or message.
+
+instagram_content_task:
+  description: >
+    Write captivating and relevant Instagram post copy for each day (Monday to Friday) to promote {project_description}.
+    Ensure the content aligns with the strategic themes of the content calendar, embodies the brand's voice, and engages the audience.
+    The copy should be concise, SEO-friendly, and include calls to action and relevant hashtags.
+  expected_output: >
+    A markdown document containing:
+    - Daily Instagram post copy for Monday to Friday.
+    - Relevant hashtags and calls to action for each post.
+    - Content that is engaging, on-brand, and aligned with the content calendar.
+
+image_prompt_task:
+  description: >
+    Create detailed image prompts for each Instagram post to be published from Monday to Friday as part of the strategy to promote {project_description}.
+    Each description should include:
+    - Main elements in the image (objects, colors, mood, etc.).
+    - Detailed yet concise guidance to ensure high-quality visuals.
+  expected_output: >
+    A markdown document with:
+    - Image prompts for Instagram posts from Monday to Friday.
+    - Descriptions including colors, mood, objects, and any other relevant information aligned with the content calendar and identified trends.
+
+report_final_content_strategy:
+  description: >
+    Compile a comprehensive report that outlines the final content strategy for the week to promote {project_description}.
+    The report should include:
+    - Market research findings.
+    - A detailed content calendar with Instagram posts, image prompts, and hashtags.
+    - Cold email templates for outreach.
+    - A curated list of 10 potential client emails for promoting {project_description}.
+    - A rationale explaining how the strategy aligns with trends and audience preferences.
+  expected_output: >
+    A markdown-formatted report that includes:
+    - Market research findings.
+    - Content calendar with Instagram posts, image prompts, and hashtags.
+    - Cold email templates.
+    - Potential client email list.
+    - A rationale explaining the alignment with audience preferences and trends.

@@ -1,0 +1,20 @@
+[project]
+name = "mareting_dept"
+version = "0.1.0"
+description = "mareting_dept using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.86.0,<1.0.0"
+]
+
+[project.scripts]
+mareting_dept = "mareting_dept.main:run"
+run_crew = "mareting_dept.main:run"
+train = "mareting_dept.main:train"
+replay = "mareting_dept.main:replay"
+test = "mareting_dept.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
