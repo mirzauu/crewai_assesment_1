@@ -19,11 +19,11 @@ def run():
     choice = input("Enter 1 or 2: ")
 
     if choice == "1":
-        print("Generating a new 30-day marketing strategy...")
-        company_name="tesla"
-        website="https://www.tesla.com/"
-        about="tesla is leading electric manufacture"
-        latest_product="launcing model5 car to the market"
+        print("Generating a new  marketing strategy...")
+        company_name = input("Enter the company name: ")
+        website = input("Enter the website URL: ")
+        about = input("Enter a description about the company: ")
+        latest_product = input("Enter the latest product: ")
         inputs = {
         'company_name': company_name,
         'Company_website': website,
