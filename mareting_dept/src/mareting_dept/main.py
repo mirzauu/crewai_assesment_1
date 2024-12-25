@@ -36,7 +36,8 @@ def run():
 
            
             Project Overview: Design and execute a comprehensive a week marketing campaign that promotes {latest_product} and elevates the brand presence of {company_name}.
-        """
+        """,
+        "sent_email": "not given", "client_reply": "not given"
     }
         result = MarketingDept().crew().kickoff(inputs=inputs)
         print("Result:", result)
